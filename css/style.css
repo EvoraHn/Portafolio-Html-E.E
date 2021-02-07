@@ -1,9 +1,9 @@
         .bg-p-cover {
             background-position: bottom;
             background-repeat: no-repeat;
-            background-size: 150%;
+            background-size: 450%;
             background-image: url("../imgs/bg_sm.jpg");
-            animation: bganimate 60s 1;
+            
         }
         
         h2.card-title{
@@ -24,7 +24,7 @@
         
         @media (min-width:768px) {
             .bg-p-cover {
-                background-size: 100%;
+                background-size: 200%;
                 background-image: url("../imgs/bg_md.jpg");
             }
         }
@@ -40,7 +40,6 @@
                 background-position: top right;
             }
         }
-
  .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
